@@ -12,7 +12,7 @@ Here's a brief overview of what the code does:
 
 * After creating all the augmented images, the script reads them using glob, and saves the resized image in the defined lists.
 
-* The script splits the data into training, validation, and test sets, where 80% of the data is for training, 10% for validation, and 10% for testing. It also normalizes the image data and converts the class labels to categorical classes.
+* The script splits the data into training, validation, and test sets, where 80% of the data is for training, 20% for validation, and 20% for testing. It also normalizes the image data and converts the class labels to categorical classes.
 
 * The script creates a CNN model using Keras, consisting of three convolutional layers followed by three max-pooling layers, one flatten layer, and two dense layers, and uses the 'softmax' activation function for the output layer.
 
